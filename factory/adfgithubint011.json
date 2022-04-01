@@ -1,0 +1,9 @@
+{
+	"name": "adfgithubint011",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9028e0f6-158b-4045-b126-81b57c96c9b6",
+		"tenantId": "ebbb74f4-cdeb-4231-b37c-55a6e2756d82"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "DstAdlDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinSerforDstSto",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "backedup-yesterday-10pm-pst",
+				"container": "dailybackup"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
